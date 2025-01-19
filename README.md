@@ -14,26 +14,22 @@ torch==1.9.0+cu111
 1.Please refer to [skeleton-contrast](https://github.com/fmthoker/skeleton-contrast) to download and preprocess the dataset
 
 2.Organize the files as follows:
-
 project_root/
-
 ├── data/
-
-│ ├── NTU-RGB-D-60-AGCN/
-
-│ │ ├── xsub/
-│ │ │ ├── train_data_joint.npy
-│ │ │ ├── train_label.pkl
-│ │ │ ├── train_num_frame.npy
-│ │ │ ├── val_data_joint.npy
-│ │ │ ├── val_label.pkl
-│ │ │ └── val_num_frame.npy
-│ │ └── xview/
-│ │ └── ... 
-│ ├── NTU-RGB-D-120-AGCN/
-│ │ ├── xsub/
-│ │ │ └── ... 
-│ │ └── xset/
-│ │ └── ...
-│ ...
+│   ├── NTU-RGB-D-60-AGCN/
+│   │   ├── xsub/
+│   │   │   ├── train_data_joint.npy
+│   │   │   ├── train_label.pkl
+│   │   │   ├── train_num_frame.npy
+│   │   │   ├── val_data_joint.npy
+│   │   │   ├── val_label.pkl
+│   │   │   └── val_num_frame.npy
+│   │   └── xview/
+│   │       └── ...
+│   ├── NTU-RGB-D-120-AGCN/
+│   │   ├── xsub/
+│   │   │   └── ...
+│   │   └── xset/
+│   │       └── ...
+│   └── ...
 └── README.md
