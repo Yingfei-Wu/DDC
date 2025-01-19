@@ -37,3 +37,12 @@ project_root/
 ```
 ## Training and Testing
 Train on NTU Datasets:
+```
+CUDA_VISIBLE_DEVICES=0 python pretrain_moco_mask.py --lr 0.02 --batch-size 128 --teacher-t 0.05 --student-t 0.1 --topk 16384 --mlp --contrast-t 0.07 --contrast-k 16384 --checkpoint-path checkpoints/DDC_pretrain --schedule 351 --epochs 451 --pre-dataset ntu60 --skeleton-representation graph-based --protocol cross_subject --exp-descri forward_CCD
+
+```
+Test on linear action classification:
+```
+CUDA_VISIBLE_DEVICES=0 python pretrain_moco_mask.py --lr 0.02 --batch-size 128 --teacher-t 0.05 --student-t 0.1 --topk 16384 --mlp --contrast-t 0.07 --contrast-k 16384 --checkpoint-path checkpoints/pcm3/ntu60_xsub_motion/pretrain --schedule 351 --epochs 451 --pre-dataset ntu60 --skeleton-representation graph-based --protocol cross_subject --exp-descri forward_CCD
+
+```
