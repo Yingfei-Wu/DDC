@@ -17,7 +17,7 @@ torch==1.9.0+cu111
 ```
 project_root/
 ├── data/
-│   ├── NTU-RGB-D-60-AGCN/
+│   ├── NTU60/
 │   │   ├── xsub/
 │   │   │   ├── train_data_joint.npy
 │   │   │   ├── train_label.pkl
@@ -27,7 +27,7 @@ project_root/
 │   │   │   └── val_num_frame.npy
 │   │   └── xview/
 │   │       └── ...
-│   ├── NTU-RGB-D-120-AGCN/
+│   ├── NTU120/
 │   │   ├── xsub/
 │   │   │   └── ...
 │   │   └── xset/
@@ -35,3 +35,5 @@ project_root/
 │   └── ...
 └── README.md
 ```
+## Training and Testing
+Train on NTU Datasets:
