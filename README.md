@@ -14,6 +14,7 @@ torch==1.9.0+cu111
 1.Please refer to [skeleton-contrast](https://github.com/fmthoker/skeleton-contrast) to download and preprocess the dataset
 
 2.Organize the files as follows:
+```
 project_root/
 ├── data/
 │   ├── NTU-RGB-D-60-AGCN/
@@ -33,3 +34,4 @@ project_root/
 │   │       └── ...
 │   └── ...
 └── README.md
+```
