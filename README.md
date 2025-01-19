@@ -58,5 +58,5 @@ NTU-60 and NTU-120: [[here]](https://drive.google.com/drive/folders/17SDuCUOa9iP
 ![image](https://github.com/user-attachments/assets/3238919a-da71-4435-a507-834f78dd1436)
 
 ## Acknowledgment
-The framework of our code is based on [skeleton-contrast](https://github.com/fmthoker/skeleton-contrast) and .[PCM3](https://github.com/JHang2020/PCM3/tree/master?tab=readme-ov-file).
+The framework of our code is based on [skeleton-contrast](https://github.com/fmthoker/skeleton-contrast) and [PCM3](https://github.com/JHang2020/PCM3/tree/master?tab=readme-ov-file).
 
