@@ -54,7 +54,7 @@ Test on linear action classification:
 CUDA_VISIBLE_DEVICES=2 python action_classification.py   --lr 0.1 --pretrained checkpoints/DDC_pretrain/checkpoint_0450.pth.tar --savepath checkpoints/DDC_linear_eval --finetune-dataset ntu60 --protocol cross_subject --finetune-skeleton-representation graph-based
 ```
 ## Pretrained Models
-NTU-60 and NTU-120: [[here]]https://drive.google.com/drive/folders/1GUPFMOaLBHjnrbNeohsH1-BmQPwPqV8R?usp=drive_link).
+NTU-60 and NTU-120: [[here]](https://drive.google.com/drive/folders/1GUPFMOaLBHjnrbNeohsH1-BmQPwPqV8R?usp=drive_link).
 
 
 ## Main Results
