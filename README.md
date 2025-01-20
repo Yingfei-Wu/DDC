@@ -1,5 +1,4 @@
 # Dual-Decoder Collaborative Learning with Multi-Hybrid View Augmentation for Self-Supervised 3D Action Recognition
-The manuscript has been submitted to Pattern Recognition.
 ![Framework](https://github.com/user-attachments/assets/895f45ac-09b0-4553-8dc4-ba4ddaf3a212)
 
 
