@@ -8,6 +8,7 @@ Self-supervised methods, including contrastive learning and masked skeleton mode
 
 ## Key Ideas
 1.We propose the Dual-Decoder method. Specifically, when combining two tasks, we build on the Autoencoder structure that connects the skeletal data at both ends and use a Dual-Decoder as a bridge to combine two tasks at both the skeleton data space and the feature space. This approach involves an additional alignment using contrastive learning in the feature space, extending beyond the skeleton data space.
+
 2.We propose the Multi-dimensional Hybrid Generation based on Normal Augmentations (MHGNA) method, which, in addition to utilizing temporal and spatial information, emphasizes the interactions between individuals.
 ![MHGNA](https://github.com/user-attachments/assets/358997dd-4843-4dd2-885b-b73b4140dbb2)
 
